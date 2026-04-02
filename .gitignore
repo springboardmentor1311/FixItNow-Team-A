@@ -1,0 +1,26 @@
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build folders
+frontend/build/
+frontend/dist/
+backend/target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Env files
+.env
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+backend/.env
+backend/.env.local
+!frontend/.env.example
+!backend/.env.example
